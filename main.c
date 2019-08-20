@@ -27,7 +27,7 @@ static UINT8 current_rand;
 UINT8 rand(void) {
     UINT8 to_add = 123; 
     unsigned bit = 0x7ff;
-    current_rand = (rand_state * clock() + to_add) & bit;
+    current_rand = (current_rand * clock() + to_add) & bit;
     return current_rand;
 }
 

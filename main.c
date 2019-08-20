@@ -2,7 +2,7 @@
 // This is an alternative way for generating
 // random numbers. It's not the best, but
 // it can replace the broken one offered by
-// rand.h
+// rand.h.
 //=========================================
 
 #include <gb/gb.h>
@@ -15,7 +15,7 @@
 //=====================================
 // CREATE A VARIABLE FOR
 // STORING THE CURRENT NUMBER OF THE
-// GENERATED SEQUENCE SEQUENCE
+// GENERATED SEQUENCE.
 //=====================================
 
 static UINT8 current_rand; 
